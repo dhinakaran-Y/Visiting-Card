@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Italiana&family=Lavishly+Yours&family=Montserrat:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+/* #0875ea */
+
+body {
+  background-color: rgb(72, 72, 72);
+  justify-self: center;
+}
+
+.card {
+  z-index: 0;
+  width: 25rem;
+  /* background-image: url("./img/3.jpeg"); */
+  object-fit:contain;
+  object-position:left;
+  background-color: #222222;
+  height: 15rem;
+  margin: 5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-self: center;
+  margin-top: 2rem;
+  margin-bottom: 17px;
+  padding: 10px;
+  border: 2px solid whitesmoke;
+}
+
+.block-section {
+  position: relative;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.block {
+  width: 160px;
+  height: 70px;
+  background-color: #363636;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.text-div {
+  margin-top: 7px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.text-div > h1 {
+  font-weight: bolder;
+}
+
+.text-div > p {
+  font-size: small;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  color: black;
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  margin-top: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-content: center;
+}
+
+.some {
+  margin-top: 30px;
+  text-align: center;
+  font-size: x-small;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  color: black;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-content: center;
+  justify-content: center;
+  justify-self: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
